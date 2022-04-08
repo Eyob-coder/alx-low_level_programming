@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry Point
- * Description: prints all possible combination of two different digits in ascending order
+ * 
  * Return: Always 0 (Success/correct)
  */
 int main(void)
