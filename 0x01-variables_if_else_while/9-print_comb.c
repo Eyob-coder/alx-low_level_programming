@@ -1,29 +1,23 @@
 #include <stdio.h>
 /**
  * main - Entry Point
- *
+ * Description: prints all single digit numbers of base 10
  * Return: Always 0 (Success/correct)
  */
 int main(void)
-
 {
-int number;
+int c = 0;
 
-for (number = 48; number <= 57; number++)
+while (c <10)
 {
-putchar(number);
-
-if (number == 57);
-}
-break;
+putchar(48 + c);
+if (c != 9)
 {
-
 putchar(',');
-putchar (' ');
+putchar(' ');
 }
-
-putchar('\n');
-
+c++;
+}
+putchar(\n');
 return (0);
-
 }
