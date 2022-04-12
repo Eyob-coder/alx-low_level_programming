@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 /**
  * _islower - program than that checks for lowercase character
  * @c: is the input variabl8e
