@@ -14,7 +14,6 @@ while (head)
 {
 diff = head - head->next;
 num++;
-if (head != 0)
 printf("[%p] %d\n", (void *)head, head->n);
 if (diff > 0)
 head = head->next;
